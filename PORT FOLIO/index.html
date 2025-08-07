@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praveen Pasupuleti</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5912286223.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="images/png" href="./images/Praveen_logo.jpg">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo praveen.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fas fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>PYTHON DEVELOPER</p>
+                <h1>HI, I'm <span>Praveen</span><br> From India</h1>
+            </div>
+        </div>
+    </div>
+<!------------------------------about-------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/photo.jpg">  
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Highly motivated Computer Science Student with a passion for developing innovative solutions.
+                        Skilled in machine learning, database design, and software development, with a proven track
+                        record of improving system performance, reducing processing time, and increasing user
+                        engagement. Collaborative team player with a strong commitment to delivering exceptional
+                        results and driving business success</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills </p>
+                            <p class="tab-links" onclick="opentab('intenship')">Intenship </p>
+                            <p class="tab-links" onclick="opentab('education')">Education </p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>TECHNICAL SKILLS</span><br>Python | NumPy | Pandas | Matplotlib | Data Structures</li>
+                                <li><span>WEB DEVELOPMENT</span><br>Html | Css | BootStrap | JavaScript </li>
+                                <li><span>FRAMEWORKS</span><br>Django | React</li>
+                                <li><span>DATABASE</span><br>SQL | MySQL </li>
+                                <li><span>DEVELOPER TOOLS</span><br>Git | VsCode | Google Cloud Platforms</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="intenship">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                                <li><span>Web development</span><br>Web App development</li>
+                                <li><span>App development</span><br>Building Android/ios apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>B Tech (2025)</span><br>Rise Krishna Sai Prakasam Group Of Institutions</li>
+                                <li><span>Intermediate (2021)</span><br>sri chaitanya junior college</li>
+                                <li><span>10th (2019)</span><br>Holy Faith English Medium High School</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------services------------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web development</h2>
+                    <p>HTML5 | CSS3 | JavaScript |  git | github</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Technical Skills</h2>
+                    <p>Python | Data Structures | SQL</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-palette"></i>
+                    <h2>Frameworks</h2>
+                    <p>React JS | Django</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Database</h2>
+                    <p>SQL | MySQL</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Developer Tools</h2>
+                    <p>Git,Android Studio,VSCode,Visual Studio,IntelliJ,Eclipse,Github</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------portfolio----------------->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/architect.png">
+                    <div class="layer">
+                        <h3>BR Architect</h3>
+                        <p>HTML5/CSS3</p>
+                        <a href="https://praveenpasupuleeti.github.io/CSS--Practice/DAY-5/boxmodel.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/caaaffee.png">
+                    <div class="layer">
+                        <h3>Praveen's Cafe</h3>
+                        <p>HTML5/CSS3</p>
+                        <a href="https://praveenpasupuleeti.github.io/CSS--Practice/DAY-9/index.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Indian Perfect Bride & Groom.jpg">
+                    <div class="layer">
+                        <h3>Wedding</h3>
+                        <p>HTML5/CSS3</p>
+                        <a href="https://praveenpasupuleeti.github.io/CSS--Practice/DAY-10/wedding.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/quizgame">
+                    <div class="layer">
+                        <h3>Quiz game</h3>
+                        <p>HTML5/CSS3/JavaScript</p>
+                        <a href="https://around-the-world-app.glitch.me/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/coffee.png">
+                    <div class="layer">
+                        <h3>Coffee app</h3>
+                        <p>React</p>
+                        <a href="https://coffee-app-react.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/weather.png">
+                    <div class="layer">
+                        <h3>Weather app</h3>
+                        <p>HTML5/CSS3/JavaScript/API</p>
+                        <a href="https://weather-search-app.glitch.me/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/interest calculator.png">
+                    <div class="layer">
+                        <h3>Interest calculator</h3>
+                        <p>HTML5/CSS3/JavaScript</p>
+                        <a href="https://calculator-interest.glitch.me/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/restarent.png">
+                    <div class="layer">
+                        <h3>Restaurant site</h3>
+                        <p>HTML5/CSS3/JS/Gsap</p>
+                        <a href="https://good-food-resto.glitch.me"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+<!----------contact------------------------->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h4 class="sub-title">Conatct Me</h4>
+                    <p><i class="fa-solid fa-paper-plane"></i>praveenpasupuleeti@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9703152778</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/ignitly.p/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/praveen-pasupuleti-673b8636a/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Praveenpasupuleeti"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/Praveen_Resume.pdf" class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class=" btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Powered by  praveen</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    
+
+      <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+      </script>
+    </script>
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzKQqH8B1-_wmAtGaO_pRxYtHLU3SH4Q8bizy11jOYotRM1nkH1sjNlqrf_SVScMIVz-w/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+    </script>
+</body>
+</html>
